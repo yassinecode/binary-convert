@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>binary converter</title>
+  </head>
+  <body>
+    <header>
+      <p>Start converting.</p>
+    </header>
+    <div class="conv">
+      <div class="lab">
+        <label >Decimal</label>
+        <input id=decimal type="number" name="Deicimal" value="0">
+      </div>
+        <input type="button" name="submit" value="convert" onclick="convert()">
+      <div class="lab">
+        <label >Binary</label>
+        <input id=binary type="text" name="Binary" readonly>
+      </div>
+      <div class="lab">
+        <label >hexadecimal</label>
+        <input id=hexadecimal type="text" name="hexadecimal" readonly>
+      </div>
+    </div>
+  </body>
+  <script src="app.js" charset="utf-8"></script>
+
+</html>
