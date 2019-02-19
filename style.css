@@ -4,7 +4,8 @@ body{
   padding:0;
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  background:  #b03a2e ;
+  background:  url(red1.jpg) ;
+  background-position: center;
   background-size: cover;
 
 }
@@ -20,38 +21,79 @@ header p{
 }
 
 .conv{
-  position: absolute;
- width: 33%;
- height: 300px;
- top: 25%;
- left: 34%;
- background:#F2AE72;
- color: #222;
+ width: 26%;
+ height: 280px;
+ margin-top: 70px;
+ margin-right: auto;
+ margin-left: auto;
+ background:#922b21;
+ color: #ddd;
  border-radius: 6px;
 }
 .conv .lab{
-   padding: 15px 100px;
+   padding: 15px 30px;
    font-size: 18px;
 }
 .conv .lab input[type="number"]{
   width: 100%;
+  border: none;
+  color: #eee;
+  background:  #78281f ;
 }
 .conv .lab input[type="text"]{
   width: 100%;
+  border: none;
+  color: #eee;
+  background:  #78281f;
 }
 .conv input[type="button"]{
   font-family: 'Raleway', sans-serif;
   border: none;
-  background: #b03a2e ;
-  color:#000;
+  background: #222 ;
+  color:#ddd;
   width: 85px;
   height: 35px;
   font-size: 16px;
+  margin: 8px auto;
+  display: block;
   border-radius: 6px;
-  margin: 13px 43%;
   transition: 0.3s;
 }
 input[type="button"]:hover{
-  background: #cb4335;
+  background:   #641e16  ;
   cursor:pointer;
+}
+.choice{
+  margin-top: 60px;
+  text-align: center;
+  color: #ddd;
+  font-size: 25px;
+}
+.choice #Bin{
+  margin: 0 30px;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  padding: 5px;
+  transition: 0.3s
+}
+
+.choice #hexa{
+  margin: 0 30px;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  padding: 5px;
+  transition: 0.3s
+}
+.choice #hexa:hover{
+  cursor: pointer;
+  color: #333;
+  border-color: #333;
+}
+
+.choice #Bin:hover{
+  cursor: pointer;
+  color: #333;
+  border-color: #333;
 }
